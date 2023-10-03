@@ -1,10 +1,10 @@
-.main{
+.main {
     width: 100%;
     background-color: rgba(31, 38, 45, 1);
-    position: absolute;
- /* En fixant la distance avec le bas à 0, on force le contenu à être aligné vers le bas */
+    // position: absolute;
+    /* En fixant la distance avec le bas à 0, on force le contenu à être aligné vers le bas */
     bottom: 0;
-    .content{
+    .content {
         padding: 50px 20px;
         max-width: 1500px;
         margin: 0 auto;
@@ -26,7 +26,7 @@
                 color: rgba(255, 255, 255, 1);
             }
 
-            .item{
+            .item {
                 display: flex;
                 margin-bottom: 10px;
                 flex-shrink: 0;
@@ -34,15 +34,13 @@
                 margin-right: 10px;
                 margin-top: 4px;
                 color: rgba(0, 0, 0, 0.5);
-            
             }
-            
         }
-        .bottombar{
+        .bottombar {
             border-top: 1px solid rgba(0, 0, 0, 0.1);
         }
 
-        .bottombarcontent{
+        .bottombarcontent {
             padding: 20px;
             display: flex;
             align-items: center;
@@ -57,6 +55,5 @@
             justify-content: space-between;
             text-align: left;
         }
-        
     }
 }
