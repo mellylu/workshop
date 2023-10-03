@@ -30,4 +30,13 @@
             color: #424446;
         }
     }
+
+    &-link {
+        background-color: #ffffff;
+        font-size: 11px;
+        text-decoration: underline;
+        &:hover {
+            font-weight: bold;
+        }
+    }
 }

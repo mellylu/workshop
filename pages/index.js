@@ -1,11 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from "./index.module.scss"
+import Modal from "../components/body/modal/modal"
 
 export default function Home() {
-  return (
-    <div>
-     <h1 className="text text-right">MMMMMMMMMMM</h1>
-    </div>
-  )
+    return (
+        <div>
+            <h1 className="text text-center">Choisissez un panier</h1>
+            <div className={styles.mainmodal}>
+                <div className={styles.modal}>
+                    <Modal />
+                    <Modal />
+                    <Modal />
+                </div>
+            </div>
+        </div>
+    )
 }
